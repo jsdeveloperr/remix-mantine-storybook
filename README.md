@@ -41,7 +41,7 @@ Make sure your system meets the following requirements:
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/your-repo/remix-mantine-storybook.git
+git clone https://github.com/jsdeveloperr/remix-mantine-storybook.git
 cd remix-mantine-storybook
 yarn install
 ```
