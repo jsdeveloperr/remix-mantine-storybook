@@ -5,7 +5,7 @@ import tsconfigPaths from "vite-tsconfig-paths";
 
 installGlobals();
 
-const isStorybook = process.argv.some((arg) => arg.includes("storybook"));
+const isStorybook = process.env.IS_STORYBOOK === "true";
 
 export default defineConfig({
   plugins: [
